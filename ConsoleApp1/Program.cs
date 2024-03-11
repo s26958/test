@@ -9,13 +9,13 @@ class Program
         Srednia(tab);
     }
 
-    public static void Srednia(int[] tab)
+    public static void Srednia(int[] tablica)
     {
         int sum = 0;
-        foreach (int num in tab)
+        foreach (int num in tablica)
         {
             sum = sum + num;
         }
-        Console.WriteLine(sum/tab.Length);
+        Console.WriteLine(sum/tablica.Length);
     }
 }
