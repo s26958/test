@@ -10,14 +10,14 @@ class Program
         Maks(tab);
     }
 
-    public static void Srednia(int[] tab)
+    public static void Srednia(int[] arr)
     {
         int sum = 0;
-        foreach (int num in tab)
+        foreach (int num in arr)
         {
             sum = sum + num;
         }
-        Console.WriteLine(sum/tab.Length);
+        Console.WriteLine(sum/arr.Length);
     }
     public static void Maks(int[] tab)
     {
